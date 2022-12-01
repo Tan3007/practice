@@ -1,0 +1,67 @@
+<!-- 4)	Recreate your class Time table using html & css only. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Class Time Table</title>
+    <style media="screen">
+      p, tr{
+        text-align: center;
+      }
+      td, table{
+        border: solid;
+        border-collapse: collapse;
+      }
+      body{
+        background-color: #e7eaf6;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Time Table<br> Course: MCA</p>
+    <table align="center">
+      <tr name="first">
+          <td bgcolor="" color="white">Time/Day</td>
+          <td colspan="5">Monday</td>
+          <td colspan="5">Tuesday</td>
+          <td colspan="5">Wednesday</td>
+          <td colspan="5">Thursday</td>
+          <td colspan="5">Friday</td>
+          <td colspan="5">Saturday</td>
+      </tr>
+      <tr name="second">
+        <td>08:00AM - 09:00AM</td>
+        <td rowspan="2" colspan="5">Placement Training</td>
+        <td rowspan="2" colspan="5">Placement Training</td>
+        <td colspan="5"> </td>
+        <td rowspan="2" colspan="5">Placement Training</td>
+        <td colspan="5"> </td>
+        <td colspan="5"> </td>
+      </tr>
+      <tr name="third">
+        <td>09:00AM - 10:00AM</td>
+        <td colspan="5"> </td>
+        <td colspan="5"></td>
+        <td colspan="5"> WT <br>[VSS] <br> CR-54 </td>
+      </tr>
+      <tr name="fourth">
+        <td>10:00AM - 11:00AM</td>
+        <td colspan="2" rowspan="2"> JP<br> [PDO] <br> B2 <br> BS-1 Lab </td>
+        <td colspan="3" rowspan="2"> WT<br> [VMV] <br>B3<br> CL-2 Lab </td>
+        <td colspan="2" rowspan="2"> JP<br> [PDO] <br> B1 <br> RL-2 Lab </td>
+        <td colspan="3" rowspan="2"> WT<br> [VMV] <br>B2<br> CL-2 Lab </td>
+        <td colspan="2" rowspan="2"> CN<br> [DKR] <br> B3 <br> RL-1 Lab </td>
+        <td colspan="3" rowspan="2"> DBMS<br> [VMV] <br>B1<br> CISCO Lab </td>
+        <td colspan="5"> DT <br>[SAG] <br> CR-23 </td>
+        <td colspan="2" rowspan="2"> JP<br> [PDO] <br> B1 <br> RL-2 Lab </td>
+        <td colspan="3" rowspan="2"> CN<br> [DKR] <br>B2<br> MM Lab </td>
+        <td colspan="5"> WT <br>[VSS] <br> CR-54 </td>
+      </tr>
+      <tr>
+        <td>11:00AM - 12:00PM</td>
+        <td colspan="5"> DT <br>[SAG] <br> CR-23 </td>
+        <td colspan="5"> DSA <br>[PSH] <br> CR-54 </td>
+      </tr>
+    </table>
+  </body>
+</html>
